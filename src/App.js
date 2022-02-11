@@ -1,10 +1,15 @@
 import Footer from '../src/components/footer/Footer'
+import Contact from './pages/contact/Contact';
+import Details from './pages/Home/Details';
 import Home from './pages/Home/Home';
 function App() {
   return (
     <div className="App">
-      {/* <Footer/> */}
+     
       <Home/>
+      <Details/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }
