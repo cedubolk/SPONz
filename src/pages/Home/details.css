@@ -11,18 +11,22 @@
   font-family: "poppins", sans-serif;
   border-top: 3px solid lightgray;
   border-bottom: 3px solid lightgray;
-  font-size: 60px;
+  font-size: 80px;
+  font-weight: 900;
+  color: rgb(220, 43, 20);
+  letter-spacing: 2px;
 }
 .detailspar {
   font-family: "poppins", sans-serif;
   font-size: 30px;
+  letter-spacing: 2px;
   font-weight: 300;
-  width: 70%;
+  width: 80%;
   margin: 40px 10px;
 }
 .circlemain {
   display: flex;
-  margin: 50px 50px;
+  margin: auto 0px;
   flex-wrap: wrap;
   color: black;
   margin-top: -10px;
