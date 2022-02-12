@@ -26,7 +26,7 @@
 }
 .circlemain {
   display: flex;
-  margin: auto 50px;
+  margin: auto 0px;
   flex-wrap: wrap;
   color: black;
   margin-top: -10px;
