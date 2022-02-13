@@ -19,8 +19,9 @@ body{
 }
 .seomain{
     color: darkgoldenrod;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #ffd400;
     font-size: 30px;
+    font-family: serif;
 }
 .seoright{
 width: 80%;

@@ -6,7 +6,7 @@ const Ga = () => {
     <div className="Sem">
       <div className="semright">
         <li className="sem1">
-          <CgDesignmodo style={{ color: "black", fontsize: "500px" }} />
+          <CgDesignmodo style={{ color: "darkgoldenrod", fontsize: "500px" }} />
         </li>
       </div>
       <div className="semleft">
