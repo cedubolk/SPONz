@@ -19,8 +19,7 @@ body{
 }
 .semmain{
     color: darkgoldenrod;
-    border-bottom: 1px solid #ffd400;
-    font-family: serif;
+    border-bottom: 1px solid gray;
 
 }
 .semright{
