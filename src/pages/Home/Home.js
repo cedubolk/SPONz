@@ -18,7 +18,7 @@ const Home = () => {
           <ul className="hul">
             <div className="changer">
               <li>
-                <VscSettingsGear style={{ color: "white",margin:"0px 20px"  }} />
+                <VscSettingsGear style={{ color: "palegoldenrod",margin:"0px 20px"  }} />
                 <div className="title">
                 Business Planing<br/>joinus now
                 </div>
@@ -26,7 +26,7 @@ const Home = () => {
             </div>
             <div className="changer">
               <li>
-                <GiChart style={{ color: "white",margin:"0px 20px" }} />
+                <GiChart style={{ color: "palegoldenrod",margin:"0px 20px" }} />
                 <div className="title">
                    Business Analysis<br/>joinus now
                 </div>
@@ -34,7 +34,7 @@ const Home = () => {
             </div>
             <div className="changer">
               <li>
-                <IoMagnetSharp style={{ color: "white",margin:"0px 20px" }} />
+                <IoMagnetSharp style={{ color: "palegoldenrod",margin:"0px 20px" }} />
                 <div className="title">
                  Brand Developing<br/>joinus now
                 </div>
@@ -42,7 +42,7 @@ const Home = () => {
             </div>
             <div className="changer">
               <li>
-                <MdReportProblem style={{ color: "white",margin:"0px 20px" }} />
+                <MdReportProblem style={{ color: "palegoldenrod",margin:"0px 20px" }} />
                 <div className="title">
                     Problem Solving<br/>joinus now
                 </div>
