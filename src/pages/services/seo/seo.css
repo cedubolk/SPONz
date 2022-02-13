@@ -1,0 +1,9 @@
+.Seo{
+display: flex;
+}
+.seo1 {
+    flex:1;
+}
+.seo2 {
+    flex: 1;
+}
