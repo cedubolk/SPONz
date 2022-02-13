@@ -12,8 +12,13 @@ import Ga from './pages/services/ga/Ga';
 function App() {
   return (
     <div className="App">
-     
-      <Home/>
+     <Seo/>
+     <Sem/>
+     <Em/>
+     <Ga/>
+     <Smm/>
+     <Ws/>
+      {/* <Home/>
       <Details/>
       <About/>
       <Contact/>
@@ -23,7 +28,7 @@ function App() {
       <Smm/>
       <Em/>
       <Ga/>
-      <Footer/>
+      <Footer/> */}
     </div>
   );
 }

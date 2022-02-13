@@ -1,16 +1,30 @@
-import React from 'react';
-import "./em.css";
-import {AiTwotoneMail} from "react-icons/ai";
+import React from "react";
+import "../seo/seo.css";
+import {CgWebsite} from "react-icons/cg";
 const Em = () => {
   return (
-    <div className="Em">
-    <li className="em1" >
-    <AiTwotoneMail style={{ color: "black", fontsize: "500px" }}/>
-     </li>
-        <h2>Email Marketing</h2>
-    <p className="em2">Email marketing is a form of marketing that can make the customers on your email list aware of new products, discounts, and other services. It can also be a softer sell to educate your audience on the value of your brand or keep them engaged between purchases. It can also be anything in between.</p>
+    <div className="Seo">
+      <div className="seoright">
+        <h2 className="seomain"> Website Strategy</h2>
+        <p className="seop">
+          Your website is your business’s online shop window. As such, it’s the
+          most important part of your online marketing efforts. There are so
+          many things about your website that can damage your SEO and
+          credibility online. H1 tags, images, load speed, and functional links
+          are just a few of the things that add value to your site. A good
+          digital agency will go through your website carefully and ensure that
+          every aspect of it is working to your benefit. Key Medium recently
+          increased a client’s website traffic by 28% simply by improving their
+          website.
+        </p>
+      </div>
+      <div className="seoleft">
+        <li className="seo1">
+          <CgWebsite style={{ color: "black", fontsize: "500px" }} />
+        </li>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Em
+export default Em;

@@ -7,15 +7,15 @@ const About = () => {
       <div className="abr"></div>
       <div className="about-details">
         <span className="about-dev">About</span>
-        <p className="about-par">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ducimus
-          aliquid ratione adipisci porro ex, explicabo, modi iusto obcaecati
-          officiis magni fuga, ipsam beatae ea? Odio assumenda voluptates
-          provident laborum? Praesentium, a! Doloribus, quidem excepturi,
-          corrupti sunt architecto atque ex officiis amet nam tempore est magni
-          ipsa ad, nihil rerum beatae suscipit dolorum nobis alias ducimus?
-          Expedita similique nesciunt libero!
+       {/* <div className="par"> */}
+       <p className="about-par">
+          We are a digital advertising Company Which is providing Online
+          Advertising Services such as Social Media Advertising, Website Design,
+          Artwork Design & Etc..<br/><br/> We make the customer experience better. Being
+          best at something feels great. Every Business desires a smooth buyer’s
+          journey, WE ARE BEST AT IT
         </p>
+       {/* </div> */}
       </div>
     </div>
   );
