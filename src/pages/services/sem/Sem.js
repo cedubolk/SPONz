@@ -6,7 +6,7 @@ const Sem = () => {
     <div className="Sem">
       <div className="semright">
         <li className="sem1">
-          <GiSemiClosedEye style={{ color: "black", fontsize: "500px" }} />
+          <GiSemiClosedEye style={{ color: "darkgoldenrod", fontsize: "500px" }} />
         </li>
       </div>
       <div className="semleft">

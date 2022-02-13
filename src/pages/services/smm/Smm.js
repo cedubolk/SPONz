@@ -18,7 +18,7 @@ const Smm = () => {
       </div>
       <div className="seoleft">
         <li className="seo1">
-          <IoShareSocialOutline style={{ color: "black", fontsize: "500px" }} />
+          <IoShareSocialOutline style={{ color: "darkgoldenrod", fontsize: "500px" }} />
         </li>
       </div>
     </div>

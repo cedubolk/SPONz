@@ -20,7 +20,7 @@ const Em = () => {
       </div>
       <div className="seoleft">
         <li className="seo1">
-          <CgWebsite style={{ color: "black", fontsize: "500px" }} />
+          <CgWebsite style={{ color: "darkgoldenrod", fontsize: "500px" }} />
         </li>
       </div>
     </div>

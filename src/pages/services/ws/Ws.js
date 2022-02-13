@@ -7,7 +7,7 @@ const Ws = () => {
     <div className="Sem">
       <div className="semright">
         <li className="sem1">
-          <AiTwotoneMail style={{ color: "black", fontsize: "500px" }} />
+          <AiTwotoneMail style={{ color: "darkgoldenrod", fontsize: "500px" }} />
         </li>
       </div>
       <div className="semleft">
