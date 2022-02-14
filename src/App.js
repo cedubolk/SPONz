@@ -12,12 +12,17 @@ import Ga from './pages/services/ga/Ga';
 function App() {
   return (
     <div className="App">
+    <Home/>
+      <Details/>
+      <About/>
+      <Contact/>
      <Seo/>
      <Sem/>
      <Em/>
      <Ga/>
      <Smm/>
      <Ws/>
+     <Footer/>
       {/* <Home/>
       <Details/>
       <About/>
