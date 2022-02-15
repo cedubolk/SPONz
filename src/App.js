@@ -9,15 +9,13 @@ import Ws from './pages/services/ws/Ws';
 import Smm from './pages/services/smm/Smm';
 import Em from './pages/services/em/Em';
 import Ga from './pages/services/ga/Ga';
+import Navbar from './components/nav/Navbar';
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import Allservices from './pages/services/Allservices';
 function App() {
   return (
     <div className="App">
-     <Seo/>
-     <Sem/>
-     <Em/>
-     <Ga/>
-     <Smm/>
-     <Ws/>
+   
       {/* <Home/>
       <Details/>
       <About/>
@@ -28,7 +26,17 @@ function App() {
       <Smm/>
       <Em/>
       <Ga/>
-      <Footer/> */}
+       */}
+        <Router>
+      <Navbar/>
+     <Switch>
+       <Route exact path ='/' component = {Home}/>
+       <Route exact path ='/about' component = {About}/>
+       <Route exact path = '/services' component = {Allservices}/>
+       <Route exact path = '/contact' component = {Contact}/>
+     </Switch>
+     <Footer/>
+    </Router>
     </div>
   );
 }
