@@ -17,16 +17,21 @@
     background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-color: #fff;
   
     
 }
 .abr{
     
     background-image:  linear-gradient(
-        120deg,
-        rgb(85, 88, 85),
-        rgba(77, 82, 82, 0.67)
-      )
+        320deg,
+        rgb(46, 179, 46),
+        rgb(108, 178, 180),
+        rgb(233, 128, 128), 
+        rgb(121, 173, 114),
+        rgba(12, 10, 10, 0.67)
+      );
+      background-color: #fff;
   
 }
 .about-details{
@@ -43,15 +48,17 @@
     font-weight: 600;
 }
 .about-par{
-    width: 80%;
+    width: 44%;
     font-family: "poppins", sans-serif;
     font-size:22px;
     margin-top: 50vh;
     color: blanchedalmond;
     font-weight: 400;
-  line-height: 30px;
+    margin-right: 20px;
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 10px;
     
-    padding: 0px 40px;
+    padding: 10px 30px;
 
 }
 .par{
@@ -73,7 +80,11 @@
     }
     .about-par{
         text-align: center;
-        
+        width: 100%;
+        margin-right: 0px;
+        min-height: 50vh;
+        font-size: 30px;
+        line-height: 50px;
     }
     .par{
     

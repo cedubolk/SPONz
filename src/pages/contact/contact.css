@@ -12,6 +12,7 @@
     height: 100vh;
     overflow: hidden;
     background-image: url('../../assets/elma.jpg');
+    mix-blend-mode: darken;
     background-repeat: no-repeat;
     object-fit: cover;
   background-size: cover;
