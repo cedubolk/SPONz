@@ -30,6 +30,7 @@
         rgb(233, 128, 128), 
         rgb(121, 173, 114),
         rgba(12, 10, 10, 0.67)
+
       );
       background-color: #fff;
   
@@ -42,9 +43,12 @@
     font-family: "poppins", sans-serif;
     flex: 1;
     font-size: 10em;
-    color: blanchedalmond;
-    margin:  50px ;
-    margin-top: 60vh;
+    color: rgb(13, 14, 13);
+
+    
+   
+    margin:50px;
+margin-top: 60vh;
     font-weight: 600;
 }
 .about-par{

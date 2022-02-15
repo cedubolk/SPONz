@@ -6,7 +6,9 @@ const About = () => {
     <div className="mainabout">
       <div className="abr">
       <div className="about-details">
-        <span className="about-dev">About</span>
+        <span className="about-dev">AB<span style={{color:"white"}}>O
+        </span>UT.</span>
+        <hr />
        {/* <div className="par"> */}
        
        <p className="about-par">
