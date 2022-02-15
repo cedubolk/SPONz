@@ -19,7 +19,7 @@ body{
 }
 .seomain{
     color: darkgoldenrod;
-    border-bottom: 1px solid #ffd400;
+    border-bottom: 1px solid gray;
     font-size: 30px;
     font-family: serif;
 }
