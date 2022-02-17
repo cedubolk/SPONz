@@ -17,9 +17,9 @@ body {
 
 a {
   text-decoration: none;
-  color: rgb(0 0 0);
+  color: rgb(235, 228, 228);
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 600;
   font-family: "poppins";
   text-transform: uppercase;
   
@@ -39,7 +39,7 @@ a {
   justify-content: flex-end;
 
   height: 80px;
-  background:rgb(252 252 252);
+  background-color: rgb(12, 12, 12);
   position: sticky;
   top: 0;
   z-index: 999;
@@ -57,7 +57,10 @@ a {
 .logo{
   display: flex;align-items: center;justify-content: center;
 }
-
+.logoimg{
+  width: 200px;
+  
+}
 .nav__menu {
   display: flex;
   align-items: center;

@@ -59,7 +59,7 @@ function Navbar() {
   return (
     <nav className="nav">
       <div className="nav__brand">
-      <img className="logo" src={logo}/>
+      <img className="logoimg" src={logo}/>
       </div>
       <ul className={active}>
         <li className="nav__item">
