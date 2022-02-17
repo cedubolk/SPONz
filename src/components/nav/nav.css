@@ -19,14 +19,22 @@ a {
   text-decoration: none;
   color: rgb(235, 228, 228);
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   font-family: "poppins";
   text-transform: uppercase;
   
   
 }
-.nav__link{
+.nav__linked{
+  
+  background-color:crimson;
+  height:40px;
+  width: 170px;
   display: flex;align-items: center;justify-content: center;
+  border-radius: 30px;
+}
+.nav__linked:hover{
+  background-color: #444;
 }
 .nav__link:hover{
   color: rgb(233 172 0);

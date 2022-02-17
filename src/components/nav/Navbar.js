@@ -78,8 +78,8 @@ function Navbar() {
           </Link>
         </li>
         <li className="nav__item">
-          <Link to="/contact" className="nav__link">
-            contact
+          <Link to="/contact" className="nav__linked">
+            contact Us🤍
           </Link>
         </li>
       </ul>

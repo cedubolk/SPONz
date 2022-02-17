@@ -1,6 +1,5 @@
 import Footer from "../src/components/footer/Footer";
-import About from "./pages/about/About";
-// import Contact from "./pages/contact/Contact";
+import Mainabout from '../src/pages/about/Mainabout'
 import Home from "./pages/Home/Home";
 import Navbar from "./components/nav/Navbar";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
@@ -18,7 +17,7 @@ function App() {
         <Switch>
           
           <Route exact path="/" component={Mainhome} />
-          <Route exact path="/about" component={About} />
+          <Route exact path="/about" component={Mainabout} />
           <Route exact path="/services" component={Allservices} />
           <Route exact path="/contact" component={Maincontact} />
         </Switch>
