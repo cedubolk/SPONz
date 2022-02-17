@@ -13,7 +13,7 @@
   border-bottom: 3px solid lightgray;
   font-size: 80px;
   font-weight: 900;
-  color: rgb(220, 43, 20);
+  color: rgb(233 172 0);
   letter-spacing: 2px;
 }
 .detailspar {
@@ -38,7 +38,7 @@
   background-color: white;
   border: 5px solid lightgray;
   display: flex;
-  color: rgb(220, 43, 20);
+  color: rgb(233 172 0);
   margin: 30px 50px;
 
   display: flex;
@@ -55,7 +55,7 @@
   justify-content: center;
 }
 .circle:hover {
-  background-color: rgb(220, 43, 20);
+  background-color: rgb(233 172 0);
   color: white;
   border: none;
 }
