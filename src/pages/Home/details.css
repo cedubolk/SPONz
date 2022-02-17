@@ -9,12 +9,13 @@
 }
 .detailsheader {
   font-family: "poppins", sans-serif;
-  border-top: 3px solid lightgray;
+  /* border-top: 3px solid lightgray; */
   border-bottom: 3px solid lightgray;
   font-size: 80px;
   font-weight: 900;
-  color: rgb(233 172 0);
+  color:#444;
   letter-spacing: 2px;
+  font-variant-caps: unicase;
 }
 .detailspar {
   font-family: "poppins", sans-serif;
@@ -34,9 +35,14 @@
 .circle {
   width: 200px;
   height: 200px;
-  border-radius: 50%;
-  background-color: white;
+  border-radius: 50px 10px;
+  background-color: black;
   border: 5px solid rgb(233 172 0);
+  border-block-start-color: rgb(233 172 0);
+    border-block-end-color: rgb(233 172 0 / 72%);
+    border-block-start-style: initial;
+    border-block-end-width: revert;
+
   display: flex;
   color: rgb(233 172 0);
   margin: 30px 50px;
@@ -56,8 +62,12 @@
 }
 .circle:hover {
   background-color: rgb(233 172 0);
-  color: white;
-  border: none;
+  color: black;
+  border: 5px solid black;
+  border-block-start-color: rgb(233 172 0);
+  /* border-block-end-color: rgb(233 172 0 / 72%); */
+  border-block-start-style: initial;
+  border-block-end-width: revert;
 }
 .hrt{
     background-color: #000;
