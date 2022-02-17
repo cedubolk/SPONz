@@ -40,7 +40,8 @@
 
 import React, { useState } from "react";
 import "./nav.css";
-import { Link } from "react-router-dom";
+ import {Link} from 'react-router-dom';
+ import logo from '../../assets/lognew.png';
 
 function Navbar() {
   const [active, setActive] = useState("nav__menu");
@@ -57,7 +58,9 @@ function Navbar() {
   };
   return (
     <nav className="nav">
-      <div className="nav__brand">herdoy</div>
+      <div className="nav__brand">
+      <img className="logo" src={logo}/>
+      </div>
       <ul className={active}>
         <li className="nav__item">
           <Link to="/" className="nav__link">

@@ -83,6 +83,10 @@ const Button = styled.button`
   cursor: pointer;
   letter-spacing: 2px;
   background-color: transparent;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-block-start-color: initial;
+  font-family: initial;
 `;
 
 const Slider = () => {
@@ -110,7 +114,7 @@ const Slider = () => {
             <InfoContainer>
               <Title>{item.title}</Title>
               <Desc>{item.desc}</Desc>
-              <Button>SHOW NOW</Button>
+              <Button>VIEW MORE</Button>
             </InfoContainer>
           </Slide>
         ))}

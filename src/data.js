@@ -1,10 +1,11 @@
+// import "./styles/./styles/slideshow.css";
 export const sliderItem = [
     {
       id: 1,
       img: "http://officialpsds.com/imageview/rm/99/rm99jy_large.png?1521316516",
       title: "SUMMER SALE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-      bg: "ccfff5",
+      bg: "e9d66b",
     },
     {
       id: 2,

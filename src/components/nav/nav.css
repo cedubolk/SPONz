@@ -17,7 +17,7 @@ body {
 
 a {
   text-decoration: none;
-  color: rgb(204, 204, 204);
+  color: rgb(0 0 0);
   font-size: 20px;
   font-weight: 300;
   font-family: "poppins";
@@ -29,18 +29,17 @@ a {
   display: flex;align-items: center;justify-content: center;
 }
 .nav__link:hover{
-  color: aqua;
+  color: rgb(233 172 0);
   border-bottom: 3px solid #fff;
 }
 
 .nav {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  overflow: hidden;
-  width: 100%;
+  justify-content: flex-end;
+
   height: 80px;
-  background: rgb(0,0,0,0.99);
+  background:rgb(252 252 252);
   position: sticky;
   top: 0;
   z-index: 999;
@@ -50,9 +49,13 @@ a {
   display: flex;align-items: center;justify-content: center;
 }
 .nav__brand {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   display: flex;align-items: center;justify-content: center;
-  
+  /* height:100%; */
+  /* width:auto; */
+}
+.logo{
+  display: flex;align-items: center;justify-content: center;
 }
 
 .nav__menu {
