@@ -14,8 +14,8 @@ position:absolute;
   
 `;
 const Arrow = styled.div`
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
   color: black;
   border-radius: 50%;
   display: flex;
@@ -31,7 +31,7 @@ const Arrow = styled.div`
   opacity: 0.5;
   z-index: 2;
   &:hover {
-    background-color: blue;
+    background-color: crimson;
     color: white;
   }
 `;
@@ -97,7 +97,9 @@ const Slider = () => {
   return (
     <Container>
       <Arrow direction="left" onClick={() => handleClick("left")}>
-        <ArrowLeftOutlinedIcon />
+          <a style={{color:"black"}}>
+        <ArrowLeftOutlinedIcon/>
+        </a>
       </Arrow>
       <Wrapper slideIndex={slideIndex}>
         {sliderItem.map((item) => (

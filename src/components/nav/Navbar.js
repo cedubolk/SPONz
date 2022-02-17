@@ -4,7 +4,6 @@
 // import {Link} from 'react-router-dom'
 // import './nav.css'
 
-
 // const Navbar = () => {
 //     const[IsOpen ,SetIsOpen] = useState(false);
 //   return <>
@@ -39,10 +38,9 @@
 
 // export default Navbar;
 
-
 import React, { useState } from "react";
 import "./nav.css";
- import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [active, setActive] = useState("nav__menu");
@@ -59,9 +57,7 @@ function Navbar() {
   };
   return (
     <nav className="nav">
-      <div className="nav__brand">
-        herdoy
-      </div>
+      <div className="nav__brand">herdoy</div>
       <ul className={active}>
         <li className="nav__item">
           <Link to="/" className="nav__link">
@@ -69,7 +65,7 @@ function Navbar() {
           </Link>
         </li>
         <li className="nav__item">
-          <Link  to="/about" className="nav__link">
+          <Link to="/about" className="nav__link">
             About
           </Link>
         </li>
@@ -79,11 +75,10 @@ function Navbar() {
           </Link>
         </li>
         <li className="nav__item">
-          <Link to ="/contact" className="nav__link">
+          <Link to="/contact" className="nav__link">
             contact
           </Link>
         </li>
-     
       </ul>
       <div onClick={navToggle} className={icon}>
         <div className="line1"></div>
