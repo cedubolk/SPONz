@@ -44,8 +44,7 @@ box-shadow: 4px 3px 5px -3px #000000;
 .box-img{
   object-fit: cover;
   position: relative;
-  max-width: 100px;
-  height: auto;
+  width:75px;
   margin-bottom: 10px;
 }
 .offerbox:nth-child(1){
