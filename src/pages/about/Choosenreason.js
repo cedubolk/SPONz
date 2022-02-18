@@ -1,5 +1,6 @@
 import React from "react";
 import "./reason.css";
+import two from "../../assets/assests/two.png"
 
 const Choosenreason = () => {
   return (
@@ -7,7 +8,7 @@ const Choosenreason = () => {
       <div className="choosenright">
         <img
           className="choosenimg"
-          src="https://vdepict.com/wp-content/uploads/2020/06/2.HM_.Image2MIN.png"
+          src={"https://vdepict.com/wp-content/uploads/2020/06/2.HM_.Image2MIN.png"}
           alt=""
         />
       </div>

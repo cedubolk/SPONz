@@ -34,14 +34,18 @@ box-shadow: 4px 3px 5px -3px #000000;
   text-align: center;
   color: aliceblue;
   transition: 0.3s;
+  cursor: pointer;
 }
 .offercontainer .offerbox:hover{
  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
   transform: scale(1.02);
+  transition: 0.3s;
 }
 .box-img{
+  object-fit: cover;
   position: relative;
   max-width: 100px;
+  height: auto;
   margin-bottom: 10px;
 }
 .offerbox:nth-child(1){

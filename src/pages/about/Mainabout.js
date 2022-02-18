@@ -5,6 +5,7 @@ import Choosenreason from "./Choosenreason";
 import ValuesVisions from "./ValuesVisions";
 import Valuesoptions from "./Valuesoptions";
 import Offer from "./Offer";
+import Team from "./Team";
 
 const Mainabout = () => {
   return (
@@ -14,6 +15,7 @@ const Mainabout = () => {
       <ValuesVisions />
       <Valuesoptions />
       <Offer />
+      <Team/>
       {/* <About/> */}
     </div>
   );

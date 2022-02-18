@@ -1,5 +1,8 @@
 import React from "react";
 import "./offer.css";
+import oner from "../../assets/assests/oner.png"
+import two from "../../assets/assests/two.png"
+import three from "../../assets/assests/three.png"
 
 const Offer = () => {
   return (
@@ -8,7 +11,7 @@ const Offer = () => {
         <div className="offercontent">
           <img
             className="box-img"
-            src="https://vdepict.com/wp-content/uploads/2020/04/app-developer-icon-small-03.png"
+            src={oner}
             alt=""
           />
           <p className="box-p">
@@ -34,7 +37,7 @@ const Offer = () => {
         <div className="offercontent">
           <img
             className="box-img"
-            src="https://vdepict.com/wp-content/uploads/2020/04/app-developer-icon-small-02.png"
+            src={two}
             alt=""
           />
           <p className="box-p">
@@ -47,7 +50,7 @@ const Offer = () => {
         <div className="offercontent">
           <img
             className="box-img"
-            src="https://vdepict.com/wp-content/uploads/2020/04/app-developer-icon-small-01.png"
+            src={three}
             alt=""
           />
           <p className="box-p">
@@ -73,7 +76,7 @@ const Offer = () => {
         <div className="offercontent">
           <img
             className="box-img"
-            src="https://vdepict.com/wp-content/uploads/2020/04/app-developer-icon-small-04.png"
+            src="https://png.pngtree.com/png-clipart/20191120/original/pngtree-email-and-mail-icon-vector-png-image_5082677.jpg"
             alt=""
           />
           <p className="box-p">

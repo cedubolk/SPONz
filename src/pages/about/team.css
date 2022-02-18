@@ -1,0 +1,89 @@
+.teamdev {
+  margin-top: 50px;
+}
+.teamadder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.logoimg {
+  width: 100px;
+  margin-bottom: 20px;
+  /* border: 5px solid #444; */
+  border-radius: 50%;
+}
+.teamlogos1:hover {
+  transform: scale(1.02);
+
+  transition: 0.3s;
+}
+.teamlogos2:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+.teamlogos3:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+.teamlogos4:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+.alllogo {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.alllogo:hover {
+}
+.logotitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.logotitle2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: blue;
+  font-weight: 500;
+}
+.rt {
+  display: flex;
+}
+.trv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -60px;
+}
+.imgcollector {
+  width: 50%;
+}
+.lert {
+  margin-bottom: 30px;
+  width: 80%;
+  font-size: 40px;
+  color: black;
+  text-align: left;
+}
+.lertv {
+  font-size: 15px;
+  width: 80%;
+  right: 0;
+  text-align: left;
+  margin-bottom: 50px;
+  color: #444;
+}
