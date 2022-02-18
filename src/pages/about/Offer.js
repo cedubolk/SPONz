@@ -1,6 +1,11 @@
 import React from "react";
 import "./offer.css";
-
+import startup from "../../assets/startup.png";
+import performance from "../../assets/performance.png";
+import analytics from "../../assets/analytics.png";
+import stockmarket from "../../assets/stockmarket.png";
+import emailmarketing from "../../assets/emailmarketing.png";
+import art from "../../assets/art.png";
 const Offer = () => {
   return (
     <div className="offercontainer">
@@ -8,12 +13,11 @@ const Offer = () => {
         <div className="offercontent">
           <img
             className="box-img"
-            src="https://vdepict.com/wp-content/uploads/2020/04/app-developer-icon-small-03.png"
-            alt=""
+            src={startup}
+            alt="search_engine_optimzatiion"
           />
           <p className="box-p">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga,
-            dolorum.
+            Without effective SEO, prospective customers may never get to see any of your digital marketing efforts.
           </p>
         </div>
       </div>
@@ -21,12 +25,11 @@ const Offer = () => {
         <div className="offercontent">
           <img
             className="box-img"
-            src="https://vdepict.com/wp-content/uploads/2020/04/app-developer-icon-small-07.png"
-            alt=""
+            src={performance}
+            alt="social_media_marketing"
           />
           <p className="box-p">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga,
-            dolorum.
+            This involves publishing, engaging your followers, analyzing your results, and running social media advertisements.
           </p>
         </div>
       </div>
@@ -34,12 +37,11 @@ const Offer = () => {
         <div className="offercontent">
           <img
             className="box-img"
-            src="https://vdepict.com/wp-content/uploads/2020/04/app-developer-icon-small-02.png"
-            alt=""
+            src={analytics}
+            alt="Website_Strategy"
           />
           <p className="box-p">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga,
-            dolorum.
+            We will go through your website carefully and ensure that every aspect of it is working to your benefit.
           </p>
         </div>
       </div>
@@ -47,12 +49,11 @@ const Offer = () => {
         <div className="offercontent">
           <img
             className="box-img"
-            src="https://vdepict.com/wp-content/uploads/2020/04/app-developer-icon-small-01.png"
-            alt=""
+            src={stockmarket}
+            alt="social_media_marketing"
           />
           <p className="box-p">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga,
-            dolorum.
+            Our SEM strategies involve paying a search engine to place your website in front of customers. It’s closely related to pay-per-click advertising.
           </p>
         </div>
       </div>
@@ -60,12 +61,11 @@ const Offer = () => {
         <div className="offercontent">
           <img
             className="box-img"
-            src="https://vdepict.com/wp-content/uploads/2020/04/app-developer-icon-small-05.png"
-            alt=""
+            src={emailmarketing}
+            alt="emailmarketing"
           />
           <p className="box-p">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga,
-            dolorum.
+            We can make the customers on your email list aware of new products, discounts, and other services. It can also be anything in between.
           </p>
         </div>
       </div>
@@ -73,16 +73,15 @@ const Offer = () => {
         <div className="offercontent">
           <img
             className="box-img"
-            src="https://vdepict.com/wp-content/uploads/2020/04/app-developer-icon-small-04.png"
-            alt=""
+            src={art}
+            alt="graphic_design"
           />
           <p className="box-p">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga,
-            dolorum.
+            Whether you're looking for a spectacular new logo or some stunning flyers, we can make it happen. Get design you'll love today!
           </p>
         </div>
       </div>
-      
+
     </div>
   );
 };
