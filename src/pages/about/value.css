@@ -1,13 +1,14 @@
 .values{
     display: flex;
-    height: 100vh;
+    
     justify-content: center;
+    margin-bottom: 50px;
     
     
 }
 .valuestitle{
     flex-direction: column;display: flex;
-    font-size: 40px;
+    font-size: 30px;
     font-family: "poppins",sans-serif;
     font-weight: 900;
     color: #000;

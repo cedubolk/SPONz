@@ -1,17 +1,22 @@
-import React from 'react'
-import Abouthome from './Abouthome'
-import About from './About'
-import Choosenreason from './Choosenreason'
-import ValuesVisions from './ValuesVisions'
+import React from "react";
+import Abouthome from "./Abouthome";
+import About from "./About";
+import Choosenreason from "./Choosenreason";
+import ValuesVisions from "./ValuesVisions";
+import Valuesoptions from "./Valuesoptions";
+import Offer from "./Offer";
 
 const Mainabout = () => {
   return (
-    <div><Abouthome/>
-    <Choosenreason/>
-    <ValuesVisions/>
-    <About/>
+    <div>
+      <Abouthome />
+      <Choosenreason />
+      <ValuesVisions />
+      <Valuesoptions />
+      <Offer />
+      {/* <About/> */}
     </div>
-  )
-}
+  );
+};
 
-export default Mainabout
+export default Mainabout;
