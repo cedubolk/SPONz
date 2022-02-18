@@ -13,19 +13,12 @@ const Choosenreason = () => {
       </div>
       <div className="choosenleft">
         <p className="choosepar">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, ab
-          fugiat. Delectus mollitia perspiciatis ullam nobis ad distinctio
-          tenetur illum sunt quis eligendi tempora ipsam aliquam voluptates quod
-          rem voluptatem fuga, consequuntur eius assumenda eaque velit id
-          quidem. Possimus nesciunt dolorum fuga odio pariatur assumenda
-          voluptatem asperiores minima deserunt in, voluptate, quod saepe ab.
-          Eligendi expedita quia modi in alias?
+        We are a digital advertising Company Which is providing Online Advertising Services such as Social Media Advertising, Website Design, Artwork Design and Etc.. We make the customer experience better. Being best at something feels great. Every Business desires a smooth buyer’s journey, WE are best at it!
+
         </p>
         <p className="setterbg">
           <div className="fg"></div>
-         " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem beatae
-          aperiam accusamus qui aut quia earum saepe delectus ratione? Totam
-          natus!"
+         "“Get closer than ever to your customers. So close that you tell them what they need well before they realize it themselves.” – Steve Jobs, Apple.
         </p>
         <button className="choosebtn">Get Started</button>
       </div>

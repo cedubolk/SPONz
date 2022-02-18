@@ -4,15 +4,9 @@ import "./abouthome.css";
 const Abouthome = () => {
   return (
     <div className="abouthome">
-      <div className="abtitle">Passionate about Experience Design.</div>
+      <div className="abtitle">Who we are!?</div>
       <p className="abpar">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo ipsum
-        natus quo fuga culpa accusantium sit ratione qui, tempore ad nobis eos
-        libero beatae iusto esse deleniti atque exercitationem praesentium. Ut
-        suscipit qui dolorem aspernatur expedita hic ex debitis facilis quisquam
-        mollitia. Voluptate nulla recusandae hic, quia natus quo. Harum
-        accusamus aliquam perspiciatis, qui sunt fugit illum labore nesciunt,
-        hic molestiae
+      It is straightforward, we possibly succeed assuming we assist you with succeeding. So we are insane enthusiastic to assist organizations with loving you find what makes you exceptional and channel it into a critical client experience. We along these lines keep our interaction straightforward, straightforward, and zeroed in on you. We stay away from tech popular expressions and on second thought burn through our effort zeroed in on making top tier client encounters that convert into things that matter.
       </p>
       <span className="spmintitle">Why Choose Us</span>
     </div>
