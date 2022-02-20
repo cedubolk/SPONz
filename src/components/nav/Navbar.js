@@ -49,7 +49,7 @@ const Navbar = () => {
               About
             </Link>
             <Link onClick={() => showSwitch()} to="/portfolio">
-              Portfolio
+              insights
             </Link>
             <Link
               
