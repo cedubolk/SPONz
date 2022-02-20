@@ -6,8 +6,8 @@ import Home from "./Home";
 const Mainhome = () => {
   return (
     <div>
-      <Slider />
-      <Home />
+      {/* <Slider /> */}
+      {/* <Home /> */}
       <Details />
     </div>
   );
