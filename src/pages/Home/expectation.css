@@ -1,0 +1,43 @@
+.main-exp{
+    display: flex;
+   
+   
+}
+.expectleft{
+    flex: 1;
+    padding: 0px 120px;
+    margin-top: 90px;
+}
+.expectright{
+    flex: 1;
+}
+.expectmain{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.expectpar{
+    font-weight: 300;
+    list-style-type:circle;
+    color: rgb(34, 33, 33);
+    margin-bottom: 20px;
+}
+.allparexpect{
+    margin-bottom: 50px;
+}
+.expectbtn{
+    padding: 20px 50px;
+    border: 2px solid rgba(0, 0, 255, 0.616);
+    border-radius: 60px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: blue;
+    cursor: pointer;
+    font-weight: 400;
+    font-family: "poppins";
+    
+}
+.landingimger{
+    width: 100%;
+    margin-left: -50px;
+}
